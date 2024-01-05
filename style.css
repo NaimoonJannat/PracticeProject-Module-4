@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #87ADDE;
+    color: black;
+}
+/* Heading text: Module 4  */
+
+#maintext{
+    text-align: center;
+    padding: 10px;
+    transition: color 0.4s;
+}
+#maintext:hover{
+    color:burlywood;
+}
+
+/* Navigation bar styles */
+
+nav ul{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: burlywood;
+    transition: color 0.4s;
+}
+
+nav a:hover{
+    color: burlywood; 
+    background-color: brown;
+}
+
+
+/* form file styles */
+img{
+    width: 50%;
+}
+
+label input{
+    display: block;
+}
+
+/* blog file style  */
+
+.heading{
+    margin: 20px;
+    color: burlywood;
+    text-align: center;
+    font-weight: bolder;
+}
+.inside{
+    display: block;
+}
+p{
+    font-size: 20px;
+}
+
+  .box { 
+    display: flex;
+    align-items: center; 
+  }
+  .innerbox{
+    padding: 40px;
+
+  }
+  
+  img {
+    
+    margin: 20px 30px;
+    width: 250px;
+    border: 10px solid;
+    border-color: burlywood;
+  }
+  
+  footer{
+    padding: 20px;
+    text-align: center;
+  }
